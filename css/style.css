@@ -1,0 +1,182 @@
+:root {
+  --basic-link-color: #2196f3;
+  --basic-headers-color: #212121;
+  --basic-content-color: #757575;
+}
+/* GLOBAL PROPERTIES */
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+a {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 700;
+}
+li {
+  list-style: none;
+}
+/* logo & footer logo*/
+.logo {
+  color: #000000;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo span {
+  color: var(--basic-link-color);
+}
+.logo.footer {
+  color: #000000; /*заменить на #ffffff*/
+}
+/* navigation */
+.link-navigation {
+  color: var(--basic-headers-color);
+}
+.link-navigation:hover {
+  color: var(--basic-link-color);
+}
+.link-navigation:focus {
+  color: var(--basic-link-color);
+}
+.link-adress {
+  color: var(--basic-content-color);
+}
+.link-adress:hover {
+  color: var(--basic-link-color);
+}
+.link-adress:focus {
+  color: var(--basic-link-color);
+}
+.accent.link-navigation {
+  color: var(--basic-link-color);
+}
+/* buttons */
+
+button {
+  color: var(--basic-headers-color);
+  background-color: #ffffff;
+
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+button:active {
+  color: #ffffff;
+  background-color: var(--basic-link-color);
+}
+button:hover {
+  color: #ffffff;
+  background-color: var(--basic-link-color);
+}
+button:focus {
+  color: #ffffff;
+  background-color: var(--basic-link-color);
+}
+button.primery {
+  color: #ffffff;
+  background-color: var(--basic-link-color);
+}
+/* footer */
+.link-footer {
+  color: #000000; /*заменить на rgba(255, 255, 255, 0.6);*/
+
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.link-footer.adress {
+  color: #000000; /* заменить на #000000*/
+}
+/* MAIN PROPERTIES */
+
+/* hero */
+.hero {
+  color: #000000; /*заменить на #ffffff*/
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* section skills */
+/* hidden <h2> header */
+.visual-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.skills {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.skills p {
+  color: var(--basic-content-color);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+/* our works & teams sections */
+.main-header h2 {
+  color: var(--basic-headers-color);
+
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* team cards */
+.team h3 {
+  color: var(--basic-headers-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  font-weight: 500;
+}
+.team p {
+  color: var(--basic-content-color);
+  font-weight: 400;
+}
+/* gallery */
+.gallery h2 {
+  color: var(--basic-headers-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery p {
+  color: var(--basic-content-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+}
