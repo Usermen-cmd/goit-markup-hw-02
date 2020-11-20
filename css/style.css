@@ -2,8 +2,10 @@
   --basic-link-color: #2196f3;
   --basic-headers-color: #212121;
   --basic-content-color: #757575;
+  --backgrouns-secondary-color: #2f303a;
+  --primary-background-color: #f5f4fa;
 }
-/* GLOBAL PROPERTIES */
+/*-------------------ALL PAGES PROPERTIES-------------------*/
 body {
   font-family: Roboto;
   font-style: normal;
@@ -27,7 +29,7 @@ h5 {
 li {
   list-style: none;
 }
-/* logo & footer logo*/
+/*-------------------logo & footer logo-------------------*/
 .logo {
   color: #000000;
 
@@ -41,10 +43,10 @@ li {
 .logo span {
   color: var(--basic-link-color);
 }
-.logo.footer {
-  color: #000000; /*заменить на #ffffff*/
+.footer .logo {
+  color: #ffffff;
 }
-/* navigation */
+/*-------------------navigation-------------------*/
 .link-navigation {
   color: var(--basic-headers-color);
 }
@@ -66,8 +68,7 @@ li {
 .accent.link-navigation {
   color: var(--basic-link-color);
 }
-/* buttons */
-
+/*-------------------buttons-------------------*/
 button {
   color: var(--basic-headers-color);
   background-color: #ffffff;
@@ -93,9 +94,9 @@ button.primery {
   color: #ffffff;
   background-color: var(--basic-link-color);
 }
-/* footer */
+/*-------------------footer-------------------*/
 .link-footer {
-  color: #000000; /*заменить на rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 
   font-size: 14px;
   line-height: 1.71;
@@ -103,13 +104,17 @@ button.primery {
   letter-spacing: 0.03em;
 }
 .link-footer.adress {
-  color: #000000; /* заменить на #000000*/
+  color: #ffffff;
 }
-/* MAIN PROPERTIES */
+.footer {
+  background-color: var(--backgrouns-secondary-color);
+}
+/*-------------------MAIN PROPERTIES-------------------*/
 
-/* hero */
+/*-------------------hero-------------------*/
 .hero {
-  color: #000000; /*заменить на #ffffff*/
+  color: #ffffff;
+  background-color: var(--backgrouns-secondary-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -117,8 +122,7 @@ button.primery {
   text-align: center;
   letter-spacing: 0.06em;
 }
-/* section skills */
-/* hidden <h2> header */
+/*-------------------hidden <h2> header-------------------*/
 .visual-hidden {
   position: absolute;
   width: 1px;
@@ -132,6 +136,7 @@ button.primery {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/*-------------------section skills-------------------*/
 .skills h3 {
   font-weight: 700;
   font-size: 14px;
@@ -146,7 +151,10 @@ button.primery {
   font-size: 14px;
   line-height: 1.71;
 }
-/* our works & teams sections */
+/*-------------------our works & teams sections-------------------*/
+.main-header.team {
+  background-color: var(--primary-background-color);
+}
 .main-header h2 {
   color: var(--basic-headers-color);
 
@@ -154,7 +162,7 @@ button.primery {
   line-height: 1.16;
   text-align: center;
 }
-/* team cards */
+/*-------------------team cards-------------------*/
 .team h3 {
   color: var(--basic-headers-color);
 
@@ -166,7 +174,7 @@ button.primery {
   color: var(--basic-content-color);
   font-weight: 400;
 }
-/* gallery */
+/*-------------------gallery of portfolio.html-------------------*/
 .gallery h2 {
   color: var(--basic-headers-color);
 
