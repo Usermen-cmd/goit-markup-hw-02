@@ -16,7 +16,7 @@ body {
 a {
   font-size: 14px;
   line-height: 1.14;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -100,6 +100,7 @@ button.primery {
   color: rgba(255, 255, 255, 0.6);
 
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   font-style: normal;
   letter-spacing: 0.03em;
@@ -117,11 +118,14 @@ button.primery {
   color: #ffffff;
   background-color: var(--backgrouns-secondary-color);
 
+  text-align: center;
+}
+.hero h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 /*-------------------hidden <h2> header-------------------*/
 .visual-hidden {
