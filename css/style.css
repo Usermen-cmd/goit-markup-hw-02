@@ -76,21 +76,15 @@ button {
 
   font-size: 16px;
   line-height: 1.62;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 0.03em;
 }
-button:active {
-  color: #ffffff;
-  background-color: var(--basic-link-color);
+button.primery {
+  font-weight: 700;
 }
-button:hover {
-  color: #ffffff;
-  background-color: var(--basic-link-color);
-}
-button:focus {
-  color: #ffffff;
-  background-color: var(--basic-link-color);
-}
+button:active,
+button:hover,
+button:focus,
 button.primery {
   color: #ffffff;
   background-color: var(--basic-link-color);
@@ -143,6 +137,7 @@ button.primery {
 }
 /*-------------------section skills-------------------*/
 .skills h3 {
+  color: var(--basic-headers-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
